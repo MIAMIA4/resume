@@ -1,0 +1,71 @@
+.image {
+    display: inline-block; 
+    width: 230px;
+    height: 230px;
+    box-sizing: border-box;
+}
+
+.info1 {
+    /* display: inline-block; */
+    width: 80%;
+}
+
+.links {
+    width: 80%;
+    margin: 5px;
+}
+
+.infot {
+    /* display: inline-block; */
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.info {
+    margin: 0;
+    display: flex;
+}
+
+
+
+
+.action1 h2 {
+    text-align: center;
+}
+
+.fg label{
+    display: block;
+    width: 48%;
+    box-sizing: border-box;
+    
+}
+
+.fg input, .fg textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit; 
+}
+
+.fg2 {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.fg2 .fg {
+    /* display: inline-block; */
+    margin-right: 20px;
+    /* width: calc(50%-20px); */
+    width: 50%;
+}
+
+.fg2 .fg:last-child {
+    margin-right: 0;
+}
